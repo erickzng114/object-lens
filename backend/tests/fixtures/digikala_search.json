@@ -1,0 +1,229 @@
+{
+ "status": 200,
+ "data": {
+  "products": [
+   {
+    "id": 2000,
+    "title_fa": "ماگ ناموجود",
+    "url": {
+     "uri": "/product/dkp-2000/out/"
+    },
+    "images": {
+     "main": {
+      "url": []
+     }
+    },
+    "default_variant": []
+   },
+   {
+    "id": 1000,
+    "title_fa": "ماگ سرامیکی مدل 0",
+    "url": {
+     "uri": "/product/dkp-1000/mug-0/"
+    },
+    "images": {
+     "main": {
+      "url": [
+       "https://dkstatics-public.digikala.com/p/0.jpg"
+      ]
+     }
+    },
+    "default_variant": {
+     "price": {
+      "selling_price": 1890000
+     }
+    }
+   },
+   {
+    "id": 1001,
+    "title_fa": "ماگ سرامیکی مدل 1",
+    "url": {
+     "uri": "/product/dkp-1001/mug-1/"
+    },
+    "images": {
+     "main": {
+      "url": [
+       "https://dkstatics-public.digikala.com/p/1.jpg"
+      ]
+     }
+    },
+    "default_variant": {
+     "price": {
+      "selling_price": 1890010
+     }
+    }
+   },
+   {
+    "id": 1002,
+    "title_fa": "ماگ سرامیکی مدل 2",
+    "url": {
+     "uri": "/product/dkp-1002/mug-2/"
+    },
+    "images": {
+     "main": {
+      "url": [
+       "https://dkstatics-public.digikala.com/p/2.jpg"
+      ]
+     }
+    },
+    "default_variant": {
+     "price": {
+      "selling_price": 1890020
+     }
+    }
+   },
+   {
+    "id": 1003,
+    "title_fa": "ماگ سرامیکی مدل 3",
+    "url": {
+     "uri": "/product/dkp-1003/mug-3/"
+    },
+    "images": {
+     "main": {
+      "url": [
+       "https://dkstatics-public.digikala.com/p/3.jpg"
+      ]
+     }
+    },
+    "default_variant": {
+     "price": {
+      "selling_price": 1890030
+     }
+    }
+   },
+   {
+    "id": 1004,
+    "title_fa": "ماگ سرامیکی مدل 4",
+    "url": {
+     "uri": "/product/dkp-1004/mug-4/"
+    },
+    "images": {
+     "main": {
+      "url": [
+       "https://dkstatics-public.digikala.com/p/4.jpg"
+      ]
+     }
+    },
+    "default_variant": {
+     "price": {
+      "selling_price": 1890040
+     }
+    }
+   },
+   {
+    "id": 1005,
+    "title_fa": "ماگ سرامیکی مدل 5",
+    "url": {
+     "uri": "/product/dkp-1005/mug-5/"
+    },
+    "images": {
+     "main": {
+      "url": [
+       "https://dkstatics-public.digikala.com/p/5.jpg"
+      ]
+     }
+    },
+    "default_variant": {
+     "price": {
+      "selling_price": 1890050
+     }
+    }
+   },
+   {
+    "id": 1006,
+    "title_fa": "ماگ سرامیکی مدل 6",
+    "url": {
+     "uri": "/product/dkp-1006/mug-6/"
+    },
+    "images": {
+     "main": {
+      "url": [
+       "https://dkstatics-public.digikala.com/p/6.jpg"
+      ]
+     }
+    },
+    "default_variant": {
+     "price": {
+      "selling_price": 1890060
+     }
+    }
+   },
+   {
+    "id": 1007,
+    "title_fa": "ماگ سرامیکی مدل 7",
+    "url": {
+     "uri": "/product/dkp-1007/mug-7/"
+    },
+    "images": {
+     "main": {
+      "url": [
+       "https://dkstatics-public.digikala.com/p/7.jpg"
+      ]
+     }
+    },
+    "default_variant": {
+     "price": {
+      "selling_price": 1890070
+     }
+    }
+   },
+   {
+    "id": 1008,
+    "title_fa": "ماگ سرامیکی مدل 8",
+    "url": {
+     "uri": "/product/dkp-1008/mug-8/"
+    },
+    "images": {
+     "main": {
+      "url": [
+       "https://dkstatics-public.digikala.com/p/8.jpg"
+      ]
+     }
+    },
+    "default_variant": {
+     "price": {
+      "selling_price": 1890080
+     }
+    }
+   },
+   {
+    "id": 1009,
+    "title_fa": "ماگ سرامیکی مدل 9",
+    "url": {
+     "uri": "/product/dkp-1009/mug-9/"
+    },
+    "images": {
+     "main": {
+      "url": [
+       "https://dkstatics-public.digikala.com/p/9.jpg"
+      ]
+     }
+    },
+    "default_variant": {
+     "price": {
+      "selling_price": 1890090
+     }
+    }
+   },
+   {
+    "id": 1010,
+    "title_fa": "ماگ سرامیکی مدل 10",
+    "url": {
+     "uri": "/product/dkp-1010/mug-10/"
+    },
+    "images": {
+     "main": {
+      "url": [
+       "https://dkstatics-public.digikala.com/p/10.jpg"
+      ]
+     }
+    },
+    "default_variant": {
+     "price": {
+      "selling_price": 1890100
+     }
+    }
+   }
+  ]
+ }
+}
