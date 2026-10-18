@@ -1,0 +1,102 @@
+{
+ "status": 200,
+ "data": {
+  "products": [
+   {
+    "id": 9155740,
+    "title_fa": "ماگ مدل سرامیکی ساده بسته دو عددی",
+    "title_en": "",
+    "url": {
+     "base": null,
+     "uri": "/product/dkp-9155740/ماگ-مدل-سرامیکی-ساده-بسته-دو-عددی",
+     "params": []
+    },
+    "status": "marketable",
+    "images": {
+     "main": {
+      "storage_ids": [],
+      "url": [
+       "https://dkstatics-public.digikala.com/digikala-products/767e1e8772ed376560caf5b255cbecca33da4870_1785226886.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
+      ],
+      "thumbnail_url": null
+     },
+     "list": []
+    },
+    "default_variant": {
+     "id": 1,
+     "status": "marketable",
+     "price": {
+      "selling_price": 1990000,
+      "rrp_price": 1990000,
+      "discount_percent": 0
+     }
+    }
+   },
+   {
+    "id": 8504511,
+    "title_fa": "ماگ مدل سرامیکی",
+    "title_en": "",
+    "url": {
+     "base": null,
+     "uri": "/product/dkp-8504511/ماگ-مدل-سرامیکی",
+     "params": []
+    },
+    "status": "marketable",
+    "images": {
+     "main": {
+      "storage_ids": [],
+      "url": [
+       "https://dkstatics-public.digikala.com/digikala-products/d7d936db1559bdcf718fa036471c693c2896d243_1785226599.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
+      ],
+      "thumbnail_url": null
+     },
+     "list": []
+    },
+    "default_variant": {
+     "id": 1,
+     "status": "marketable",
+     "price": {
+      "selling_price": 9750000,
+      "rrp_price": 9750000,
+      "discount_percent": 0
+     }
+    }
+   },
+   {
+    "id": 17935539,
+    "title_fa": "ماگ سرامیکی لاکی مدل هیتردار کد 007 به همراه زیرلیوانی",
+    "title_en": "",
+    "url": {
+     "base": null,
+     "uri": "/product/dkp-17935539/ماگ-سرامیکی-لاکی-مدل-هیتردار-کد-007-به-همراه-زیرلیوانی",
+     "params": []
+    },
+    "status": "marketable",
+    "images": {
+     "main": {
+      "storage_ids": [],
+      "url": [
+       "https://dkstatics-public.digikala.com/digikala-products/d660e567ffe02a03535818c69b07b7e288cf6dde_1785156498.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
+      ],
+      "thumbnail_url": null
+     },
+     "list": []
+    },
+    "default_variant": {
+     "id": 1,
+     "status": "marketable",
+     "price": {
+      "selling_price": 9970000,
+      "rrp_price": 9970000,
+      "discount_percent": 0
+     }
+    }
+   }
+  ],
+  "pager": {
+   "current_page": 1,
+   "total_pages": 42,
+   "total_items": 838
+  }
+ }
+}

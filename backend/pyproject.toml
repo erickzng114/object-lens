@@ -1,0 +1,14 @@
+[project]
+name = "object-lens-backend"
+version = "0.0.1"
+requires-python = ">=3.12"
+dependencies = ["httpx>=0.27", "fastapi>=0.115", "uvicorn>=0.30", "anthropic>=1.15"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pytest-asyncio>=0.23", "respx>=0.21"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+markers = ["live: hits the real shop sites (run with: pytest -m live)"]
+addopts = "-m 'not live'"
