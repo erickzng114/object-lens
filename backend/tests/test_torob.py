@@ -57,3 +57,16 @@ async def test_live_search():
     products = await torob.search("ماگ سرامیکی")
     assert products, "Torob returned no results"
     assert all(p.title and p.product_url.startswith("https://torob.com/") for p in products)
+
+
+def test_parse_real_response_sample_dedupes_sponsored_repeat(load_fixture):
+    # Trimmed from a live api.torob.com response (2026-10-18, query "ماگ سرامیکی").
+    products = torob.parse(load_fixture("torob_search_real.json"))
+    assert [p.title for p in products] == [
+        "ماگ سرامیکی ایران",
+        "ماگ سرامیکی بیسکویتی",
+        "ماگ سرامیکی طرح خرس ظرفیت ۲۵۰ میلی‌لیتر",
+    ]
+    assert products[1].price == 34200
+    assert products[1].product_url.startswith("https://torob.com/p/f2b4e1ec-")
+    assert products[1].image_url == "https://image.torob.com/base/images/EC/Po/ECPozNNPh8S1dEQw.jpg"

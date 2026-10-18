@@ -12,7 +12,14 @@ SITE = "https://torob.com"
 
 def parse(payload: dict, limit: int = 10) -> list[Product]:
     products = []
+    seen = set()
     for item in payload.get("results") or []:
+        # The same product can appear twice: once ranked, once as a sponsored slot.
+        key = item.get("random_key")
+        if key:
+            if key in seen:
+                continue
+            seen.add(key)
         title = item.get("name1") or item.get("name2")
         path = item.get("web_client_absolute_url")
         if not title or not path:

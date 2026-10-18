@@ -59,3 +59,15 @@ async def test_live_search():
     products = await digikala.search("ماگ سرامیکی")
     assert products, "Digikala returned no results"
     assert all(p.title and p.product_url.startswith("https://www.digikala.com/") for p in products)
+
+
+def test_parse_real_response_sample(load_fixture):
+    # Trimmed from a live api.digikala.com response (2026-10-18, query "ماگ سرامیکی").
+    products = digikala.parse(load_fixture("digikala_search_real.json"))
+    assert len(products) == 3
+    first = products[0]
+    assert first.title == "ماگ مدل سرامیکی ساده بسته دو عددی"
+    assert first.price == 199000  # 1,990,000 rial
+    assert first.product_url.startswith("https://www.digikala.com/product/dkp-9155740/")
+    assert first.image_url.startswith("https://dkstatics-public.digikala.com/digikala-products/")
+    assert first.in_stock
